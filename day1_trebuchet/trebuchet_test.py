@@ -3,8 +3,7 @@ import unittest
 from trebuchet import find_calibration_sum
 
 
-# Define the class for your test
-class MyTestCase(unittest.TestCase):
+class TrebuchetTestCase(unittest.TestCase):
 
     def test_sum_calibration_values(self):
         actual = find_calibration_sum("test_input.txt")

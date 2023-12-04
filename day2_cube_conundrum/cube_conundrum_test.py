@@ -2,7 +2,7 @@ import unittest
 
 from cube_conundrum import solve_puzzle, sum_bag_powers
 
-class MyTestCase(unittest.TestCase):
+class CubeTestCase(unittest.TestCase):
 
     def test_solve_puzzle(self):
         actual = solve_puzzle("test_input.txt")
